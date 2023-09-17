@@ -12,4 +12,4 @@ RUN apk update && \
     mv fission /usr/local/bin/
 
 # Default command, if you need one
-CMD ["fission", "--help"]
+ENTRYPOINT ["fission""]
